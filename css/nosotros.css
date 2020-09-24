@@ -1,0 +1,263 @@
+#nosotros{
+	 display: flex;
+}
+
+
+.left{
+	  float: left;
+	  width: 50%;
+}
+
+.nosotros{
+	width: 630px;
+	text-align: center;
+	margin-left: 10px;
+	font-size: 30px;
+    color: black;
+    border-radius: 8px;
+    border: 5px solid rgba(248,93,3,0.89); 
+    text-transform: none;
+}
+
+.fa-hamburger{
+	margin-left: 300px;
+	margin-top: 38px;
+	margin-bottom: 35px;
+}
+
+.texto{
+	padding: 15px;
+	text-align: justify;
+	    font-size: 20px;
+    line-height: 35px;
+
+    font-family: 'Fjalla One', sans-serif;
+}
+.right{
+	float: right;
+	width: 100%;
+}
+
+.imgnosotros{
+	width: 550px;
+	height: 380px;
+	margin-left: 100px;
+}
+@media (min-width:320px){
+	.nosotros{
+		padding: 8px;
+   font-size: 20px;
+   width: 300px;
+	}
+	.fa-hamburger{
+	margin-left: 130px;
+	margin-top: 38px;
+	margin-bottom: 35px;
+}
+#nosotros{
+	 display: inline;
+}
+
+.imgnosotros{
+	width: 290px;
+	height: 250px;
+	margin-left: 15px;
+}
+
+.texto{
+	margin-left: 10px;
+	width: 290px;
+		padding: 5px;
+	text-align: justify;
+	    font-size: 12px;
+    line-height: 35px;
+   font-family: 'Fjalla One', sans-serif;
+   margin-bottom: 20px;
+}
+
+}
+
+@media (min-width:360px){
+	.nosotros{
+		padding: 8px;
+   font-size: 20px;
+   width: 340px;
+	}
+	.fa-hamburger{
+	margin-left: 150px;
+	margin-top: 38px;
+	margin-bottom: 35px;
+}
+#nosotros{
+	 display: inline;
+}
+
+.imgnosotros{
+	width: 330px;
+	height: 200px;
+	margin-left: 15px;
+	margin-bottom: 40px;
+}
+
+.texto{
+	margin-left: 10px;
+	width: 340px;
+		padding: 5px;
+	text-align: justify;
+	    font-size: 16px;
+    line-height: 35px;
+   font-family: 'Fjalla One', sans-serif;
+   margin-bottom: 20px;
+}
+
+}
+
+
+@media (min-width:411px){
+	.nosotros{
+   margin-left: 20px;
+   padding: 8px;
+   font-size: 20px;
+   width: 380px;
+	}
+	.fa-hamburger{
+	margin-left: 190px;
+	margin-top: 38px;
+	margin-bottom: 35px;
+}
+#nosotros{
+	 display: inline;
+}
+
+.imgnosotros{
+	width: 370px;
+	height: 300px;
+	margin-left: 20px;
+}
+
+.texto{
+	margin-left: 20px;
+	width: 370px;
+		padding: 5px;
+	text-align: justify;
+	    font-size: 16px;
+    line-height: 35px;
+   font-family: 'Fjalla One', sans-serif;
+   margin-bottom: 20px;
+}
+
+}
+
+@media (min-width:768px){
+	.nosotros{
+		margin-top: -90px;
+		margin-left: 40px;
+		padding: 8px;
+   font-size: 24px;
+   width: 320px;
+	}
+#nosotros{
+	 display: flex;
+}
+.texto{
+	margin-top: -90px;
+	margin-left: 40px;
+	padding: 40px;
+	text-align: justify;
+	    font-size: 16px;
+    line-height: 35px;
+   width: auto;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.fa-hamburger{
+	margin-left: 180px;
+	margin-top: 18px;
+	margin-bottom: 55px;
+}
+.imgnosotros{
+	margin-top: 30px;
+	width: 360px;
+	height: 310px;
+	margin-left: 40px;
+
+}
+
+
+
+@media (min-width:1024px){
+	.nosotros{
+		margin-top: 0px;
+		margin-left: 40px;
+		padding: 8px;
+   font-size: 24px;
+   width: 460px;
+	}
+#nosotros{
+	 display: flex;
+}
+.texto{
+		margin-top: 0px;
+	margin-left: 40px;
+	padding: 4px;
+	text-align: justify;
+	    font-size: 20px;
+    line-height: 35px;
+   width: auto;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.fa-hamburger{
+	margin-left: 260px;
+	margin-top: 38px;
+	margin-bottom: 35px;
+}
+.imgnosotros{
+	margin-top: 0px;
+	width: 460px;
+	height: 420px;
+	margin-left: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1280px){
+	.nosotros{
+		margin-left: 40px;
+		padding: 8px;
+   font-size: 24px;
+   width: 610px;
+	}
+#nosotros{
+	 display: flex;
+}
+.texto{
+	margin-left: 40px;
+	padding: 15px;
+	text-align: justify;
+	    font-size: 20px;
+    line-height: 35px;
+   width: auto;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.fa-hamburger{
+	margin-left: 320px;
+	margin-top: 38px;
+	margin-bottom: 35px;
+}
+.imgnosotros{
+	width: 550px;
+	height: 380px;
+	margin-left: 70px;
+
+}

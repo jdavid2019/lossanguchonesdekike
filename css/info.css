@@ -1,0 +1,127 @@
+#info{
+    margin-top: -45px; 
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 150px;
+}
+
+
+
+#info h4{
+    margin-top: 25px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-kike{
+    margin: 30px;
+
+}
+
+
+@media(min-width:360px){
+#info h3{
+    width: 330px;
+    margin-top: -60px;
+    font-size: 18px;
+    margin-left: -135px;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-transform:   uppercase;
+    color: orange;
+}
+
+.info-kike img{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+}
+
+
+@media(min-width:375px){
+  #info h3{
+         width: 350px;
+    margin-top: -30px;
+    font-size: 20px;
+     margin-left: -135px;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-transform:   uppercase;
+    color: orange;
+}
+
+@media(min-width:411px){
+  #info h3{
+         width: 350px;
+    margin-top: -30px;
+    font-size: 20px;
+     margin-left: -115px;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-transform:   uppercase;
+    color: orange;
+}
+
+}
+@media(min-width:480px){
+    #info h3{
+         width: 650px;
+    margin-top: -30px;
+    font-size: 30px;
+     margin-left: 190px;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-transform:   uppercase;
+    color: orange;
+}
+.info-kike img{
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+    .info-kike{
+        /*para poner en dos columnans a partir de 480px*/
+        width: 40%;
+        margin-right: 200px;
+    }
+}
+
+@media(min-width:768px){
+    #info h3{
+         width: 650px;
+    margin-top: -30px;
+    font-size: 30px;
+     margin-left: -65px;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-transform:   uppercase;
+    color: orange;
+}
+@media(min-width:1024px){
+
+      #info h3{
+         width: 650px;
+    margin-top: -30px;
+    font-size: 30px;
+     margin-left: 190px;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-transform:   uppercase;
+    color: orange;
+}
+    .info-kike{
+        /*para poner en dos columnans a partir de 480px*/
+        width: auto;
+        margin-right: 0px;
+    }
+}

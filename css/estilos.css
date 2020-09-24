@@ -1,0 +1,142 @@
+/*estilos basicos*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+@import url(menu.css);
+
+@import url(banner.css);
+
+@import url(nosotros.css);
+
+@import url(banner2.css);
+
+
+@import url(blog.css);
+
+@import url(banner3.css);
+
+@import url(info.css);
+
+@import url(banner4.css);
+
+
+@import url(contacto.css);
+
+
+
+*{
+    margin: 0;
+    padding: 0; 
+    /*para que el tamaño encaje en cada caja ejm div etc*/
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Fjalla One', sans-serif;
+background-color:#f5f5f5;
+}
+
+header{
+   width:  100%;
+   height: 80px;  
+   background: black;
+   color: white;   
+   /*para que el menu my pets 
+    se quede esttico y no
+    se mueva*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+
+.imglogo{
+	float: left;
+	margin-top: 8px;
+	width: 270px;
+	height: 60px;
+}
+
+
+.contenedor {
+    width: 98%;
+    /*para que quede con un poco
+    de espacio y alineado*/
+    margin: auto;
+    
+}
+
+header .contenedor{
+    display: table;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+@media(min-width:1024px){
+.imglogo{
+	margin-top: 11px;
+width: 330px;
+height: 60px;	
+}
+
+
+
+}
+
+footer{
+  padding-top: 20px;
+   background: black;
+   padding: 10px;
+   margin-top: -10px;
+}
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom:25px;
+
+}
+.copy{
+    font-size: 20px;
+    color: white;
+    
+}
+
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a{
+    color: white;
+    text-decoration: none;
+}
+
+   /*a partir de tablet el footer*/
+
+@media (min-width:768px){
+   /*2reduzco el contenedor es decir el logo y el menu achico su ancho*/
+    .sociales{
+        width: auto;
+    }
+    
+    footer .contenedor{
+        /*cada elemento se coloque a un extremo del otro*/
+        justify-content: space-between;
+    }
+}
+
+
+@media (min-width:1024px){
+   /*2reduzco el contenedor es decir el logo y el menu achico su ancho*/
+    .contenedor{
+        width: 1000px;
+    }
+}
+
+

@@ -1,0 +1,144 @@
+#banner {
+  margin-top: 50px;  
+    position: relative;
+}
+
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+
+/*absolute para que las letras esten encima delaimagen*/
+#banner .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    
+}
+
+#banner h2{
+    font-size: 28px;
+    text-shadow: 4px 1px black;
+}
+
+#banner p{
+   text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black; 
+}
+
+#banner a{
+    display: block;
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 10px;
+    border: 4px solid #fff;
+    /*para darle borde a la letra*/
+    text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black; 
+    background: rgba(255,255,255,0.05);
+    border-color: #fff;
+    
+}
+
+#banner a:hover{
+    background: rgba(51,51,51,0.5);
+}
+
+@media (min-width:320px){
+ #banner .contenedor{
+	 	margin-top: 8px;
+    	background: rgba(0,0,0,0.5);
+    }
+  #banner h2{
+    	margin-top: 20px;
+        font-size: 20px;
+         margin-left: 20px;
+    }
+    #banner p{
+    	font-size: 15px;
+    	margin-left: 20px;
+    	margin-bottom: 15px;
+    }
+
+}
+/*para cuando sea de celular quiero decir
+que a partir de ese tamaño*/
+@media (min-width:360px){
+	 #banner .contenedor{
+	 	margin-top: 8px;
+    	background: rgba(0,0,0,0.5);
+    }
+    #banner h2{
+    	margin-top: 20px;
+        font-size: 30px;
+         margin-left: 20px;
+    }
+    #banner p{
+    	font-size: 15px;
+    	margin-left: 20px;
+    	margin-bottom: 15px;
+    }
+
+}
+
+@media (min-width:411px){
+ #banner h2{
+    	margin-top: 20px;
+        font-size: 30px;
+         margin-left: 10px;
+    }
+
+}
+/*para cuando sea de tablet quiero decir
+que a partir de ese tamaño*/  
+
+@media (min-width:768px){
+        #banner{
+            height: 575px;
+            overflow: hidden;
+        } 
+    #banner img{
+        height: auto;
+        margin-top: -100px;
+    }
+    #banner h2{
+       font-size: 44px;
+       margin-left: 100px;
+    }
+
+     #banner p{
+    	font-size: 25px;
+    	margin-left: 100px;
+    	margin-bottom: 12px;
+    }
+     #banner .contenedor{
+     margin-top: -50px;
+    }
+    }    
+/*para cuando sea de web quiero decir
+que a partir de ese tamaño para acomodar la imagen*/ 
+@media (min-width:1024px){
+    #banner img{
+        margin-top: -175px;
+    }
+
+    #banner h2{
+       font-size: 64px;
+       margin-left: 100px;
+    }
+
+    #banner p{
+    	font-size: 25px;
+    	margin-left: 200px;
+    	margin-bottom: 25px;
+    }
+
+    #banner .contenedor{
+    	background: rgba(0,0,0,0.5);
+    	margin-top: 30px;
+    }
+
+  
+    }   
